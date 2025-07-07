@@ -5,12 +5,12 @@ public class Main {
         A a = new A();
         B b = new B();
 
+        System.out.println("Testing sequencial process C, D");
+        C.run();
+        D.run();
         System.out.println("Testing paralel process, threads A, B");
         a.start();
         b.start();
-        System.out.println("Testing sequencial process C, D");
-        C.start();
-        D.start();
 
     }
 }

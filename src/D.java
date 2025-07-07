@@ -1,7 +1,8 @@
 public class D {
-    public static void start(){
-        for(int i = 0; i < 1000; i++){
-            System.out.println("Hello this is D");
+    public static void run(){
+        for(int i = 0; i < 500; i++){
+            System.out.print("D");
         }
+        System.out.println();
     }
 }
